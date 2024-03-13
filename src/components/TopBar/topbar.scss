@@ -1,0 +1,76 @@
+.dapp-topbar {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around!important;
+  button {
+    overflow: hidden !important;
+    margin: 6px !important;
+    min-width: fit-content !important;
+    &#hamburger {
+      padding: 11px !important;
+    }
+    &.toggle-button {
+      padding: 9.5px !important;
+    }
+  }
+}
+.nav-logo {
+  text-decoration: none!important;
+  color:RGBA(0, 150, 136, 0.25)!important;
+  display: inline-flex;
+  align-items: center;
+}
+.nav-logo-text {
+  font-family: Montserrat SemiBold;
+  font-size: 60px;
+  background: -webkit-linear-gradient(#fffdd0,#fd9b46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mobile .nav-logo-text {
+  display: none;
+}
+.tablet .dapp-topbar {
+  justify-content: space-between;
+}
+.nav-link-text {
+  padding: 14px;
+  color: whitesmoke;
+}
+.nav-link {
+  text-decoration: underline!important;
+  color: rgba( 66, 104, 22, 0.3 )!important;
+}
+.mobile .dapp-topbar .nav-link {
+  display: none;
+}
+.mobile .dapp-secbar {
+  display: flex!important;
+  width: 100vw;
+  justify-content: center;
+}
+.pending-txn-container {
+  display: flex;
+  align-items: center;
+  .MuiButton-label {
+    margin-right: 0;
+    transition: all 0.33s ease-out;
+  }
+}
+#ohm-popper-pending {
+  .MuiPaper-root.ohm-menu {
+    a {
+      padding-right: 20px !important;
+    }
+  }
+}
+.caret-down {
+  position: absolute;
+  right: 0.4rem;
+}
+.hovered-button {
+  .MuiButton-label {
+    margin-right: 0.5rem;
+    transition: all 0.33s ease-out;
+  }
+}

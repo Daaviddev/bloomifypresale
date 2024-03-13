@@ -1,0 +1,142 @@
+#dashboard-view {
+    // overflow-y: hidden;
+    // overflow-x: hidden;
+    height: 100%;
+    .ohm-card {
+      padding: 10px;
+      border-radius: 20px;
+      min-width: 80%;
+      min-height: 338px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: RGBA(0,150,136,0.25);
+      box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%);
+      border: 1px solid hsla(0,0%,100%,.07)
+    }
+  }
+
+  .spant{
+    margin: 0;
+    font-size: 3.2vh;
+    font-weight: bold;
+    position: relative;
+    transform: translateX(-50%);
+    text-align: center !important;
+    color: white;
+    background: url(https://thumbs.dreamstime.com/b/tropical-flower-pattern-seamless-flowers-blossom-flowers-nature-background-vector-illustration-61142748.jpg);
+    background-size: auto 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 8s linear infinite;
+  }
+  
+  .headtext {
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+  margin: 0;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 10vh;
+  letter-spacing: 1vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center !important;
+  color: white;
+   background-size: auto 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shine 8s linear infinite;
+  &:nth-child(2) {
+    top: 50vh;
+  }
+}
+
+  .top-row-data {
+    position: sticky;
+    overflow: hidden;
+    flex-wrap: wrap;
+    z-index: 5;
+    h5 {
+      font-weight: 600 !important;
+    }
+  }
+
+.typop{
+  color: whitesmoke!important;
+  align-items: center !important;
+
+  justify-content: center !important;
+}
+
+.presale-items{
+ color: white!important;
+ text-align: center;
+}
+  .presale-header {
+                  margin-top: 32px;
+                  max-width: 1200px;
+                  margin: auto;
+ }   
+.presale-card {
+                  border: 1.5px solid RGBA(0, 150, 136, 0.25);
+                  box-sizing: border-box;
+                  backdrop-filter: blur(4px);
+                  max-width: 833px;
+                  margin: auto;
+                  margin-top: 120px;
+                  text-align: center;
+ } 
+  
+  .main-data-area {
+    // overflow-x: hidden;
+    flex-flow: wrap;
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 73vh;
+    z-index: 2;
+    .MuiGrid-root.MuiGrid-item {
+      display: flex;
+      justify-content: center !important;
+      justify-self: center !important;
+    }
+    .data-grid {
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .dune-card {
+      height: auto;
+      min-width: 333px;
+      max-width: 700px;
+      width: auto;
+      flex: auto;
+      box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.03);
+      background-color: #ffffff0e;
+      backdrop-filter: blur(60px);
+      -webkit-backdrop-filter: blur(60px);
+      border-radius: 5px !important;
+      iframe {
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+      }
+    }
+  }
+
+
+  .stake-button{
+    color: white !important;
+  }
+
+  .stake-button:hover{
+    border: 1px solid white !important;
+  }
+              
